@@ -1,0 +1,29 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:54423/",
+      "sslPort": 44313
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "environmentVariables": {
+        "SENDGRID_API_KEY": "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",
+        "MONGODB_CONNECTION_DEVELOPMENT": "mongodb://localhost:27017",
+        "TOKEN_SECRET": "T3MY6THePVzghZzou0IdytIJMLvgOzQ8",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:54424/"
+    }
+  }
+}
